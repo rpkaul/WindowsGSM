@@ -6,7 +6,7 @@
         public override string Defaultmap { get { return "de_dust2"; } }
         public override string Additional { get { return "cs2.exe -dedicated -usercon +game_type 0 +game_mode 1 +mapgroup mg_active"; } }
         public override string Game { get { return "cs2"; } }
-        public override string AppId { get { return "740"; } }
+        public override string AppId { get { return "730"; } }
 
         public CSGO(Functions.ServerConfig serverData) : base(serverData)
         {
